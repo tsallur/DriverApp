@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Driver App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoia3ppdHRsYSIsImEiOiJja2x3amk5dDkwanNnMm9vMDI5M2o2czlhIn0.ermhMiuLhrqwvDN1QV-Ndg</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:text="Update Profile and Settings"
+            android:background="@android:color/white"
+            android:layout_margin="35dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/address_input"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:hint="Shipping Address"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/update_address"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/address_input"
+            android:text="Update" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/delete_account"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="Delete Account"
+        android:backgroundTint="#FF0000"/>
+
+</RelativeLayout>
