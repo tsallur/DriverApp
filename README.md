@@ -7,8 +7,14 @@ Over the course of the semester we all made contributions to this project follow
 sprints every week and tracked progress/effor with user stories and story points. 
 
 Most of my contributions were through this Android mobile app. The purpose of the app was to create a rewards program for commerical drivers. 
-Companies could register rewards and sponsor commerical drivers. The sponsor would set goals for the driver to meet and set a number of tokens/coins as a reward. Driver's
+Companies could register rewards and sponsor commerical drivers. The sponsor would set goals for the driver to meet and set a number of tokens/coins as a reward through 
+shopify.
+
 could later use the tokens they earned and redeem a few awards. To earn points the driver would have to use the in-app gps for tracking purposes and send any neccessary
 pictures through the app as well. 
 
 A few AWS features we used was a NOSQL Database (DynamoDB), Cognito, Lambda, and EC2.
+
+Please watch the .mp4 file for a demo. 
+
+NOTE: All of the AWS functionality was on an University owned AWS account that has been deleted. Credentials and services are in the process of being rebuilt..
