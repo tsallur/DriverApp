@@ -15,6 +15,4 @@ pictures through the app as well.
 
 A few AWS features we used was a NOSQL Database (DynamoDB), Cognito, Lambda, and EC2.
 
-Please watch the .mp4 file for a demo. 
-
 NOTE: All of the AWS functionality was on an University owned AWS account that has been deleted. Credentials and services are in the process of being rebuilt..
