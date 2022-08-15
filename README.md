@@ -11,4 +11,4 @@ Companies could register rewards and sponsor commerical drivers. The sponsor wou
 could later use the tokens they earned and redeem a few awards. To earn points the driver would have to use the in-app gps for tracking purposes and send any neccessary
 pictures through the app as well. 
 
-A few AWS features we used was a NOSQL Database (DynamoDB), Cognito, Lambda, EC2, route53, and S3. 
+A few AWS features we used was a NOSQL Database (DynamoDB), Cognito, Lambda, and EC2.
